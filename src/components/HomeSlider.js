@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from "react-material-ui-carousel"
-import { Link, Typography } from '@material-ui/core'
+import { Typography } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 import SliderImage from '../images/slider1.jpg'
 import { Link as ScrollLink } from 'react-scroll'

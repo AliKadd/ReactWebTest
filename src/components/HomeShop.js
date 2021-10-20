@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Typography, Container, Grid } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 import Product from './Product'

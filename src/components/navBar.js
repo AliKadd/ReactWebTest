@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/logo.png'
-import { Link, Toolbar, Typography } from '@material-ui/core'
+import { Link, Toolbar } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 import SearchIcon from '@material-ui/icons/Search'
 import UserIcon from '@material-ui/icons/PersonOutline'

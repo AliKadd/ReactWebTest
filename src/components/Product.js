@@ -47,7 +47,7 @@ export default function Product(props) {
     const classes = useStyles();
     return (
         <div className={classes.Product} data-aos="zoom-in" data-aos-once="true">
-            <img src={props.image} className={classes.ProductImage} />
+            <img src={props.image} className={classes.ProductImage} alt={props.name}/>
             <Typography className={classes.ProductName}>{props.name}</Typography>
             <Typography className={classes.ProductPrice}>AED {props.price}</Typography>
             {props.colors ? <Typography className={classes.ProductColors}>Available in {props.colors} colours</Typography> : null}

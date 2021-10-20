@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import { Button, Grid } from '@material-ui/core';
 
@@ -35,7 +35,7 @@ export default function ShopCategory(props) {
     return (
         <Grid data-aos="fade-up" data-aos-once="true" item sm="12" md="6">
             <div className={classes.ShopBox}>
-                <img src={props.image} alt="" className={classes.ShopImage} />
+                <img src={props.image} alt="" className={classes.ShopImage} alt={props.name}/>
                 <Button variant="contained" className={classes.ShopBtn}>{props.name}</Button>
             </div>
         </Grid>

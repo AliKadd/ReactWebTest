@@ -60,7 +60,7 @@ export default function HomeFeatures() {
             <div className={classes.InnerContainer}>
                 <div className={classes.FeaturesDiv}>
                     <div className={classes.Icon}>
-                        <img src={Icon1}/>
+                        <img src={Icon1} alt="Quality Products"/>
                     </div>
                     <div className={classes.Title}>
                         Quality Products
@@ -71,7 +71,7 @@ export default function HomeFeatures() {
                 </div>
                 <div className={classes.FeaturesDiv}>
                     <div className={classes.Icon}>
-                        <img src={Icon2}/>
+                        <img src={Icon2} alt="Lifetime Warranty"/>
                     </div>
                     <div className={classes.Title}>
                         Lifetime Warranty
@@ -82,7 +82,7 @@ export default function HomeFeatures() {
                 </div>
                 <div className={classes.FeaturesDiv}>
                     <div className={classes.Icon}>
-                        <img src={Icon3}/>
+                        <img src={Icon3} alt="Stress-free Shopping"/>
                     </div>
                     <div className={classes.Title}>
                         Stress-free Shopping
@@ -93,7 +93,7 @@ export default function HomeFeatures() {
                 </div>
                 <div className={classes.FeaturesDiv}>
                     <div className={classes.Icon}>
-                        <img src={Icon4}/>
+                        <img src={Icon4} alt="Fair Prices"/>
                     </div>
                     <div className={classes.Title}>
                         Fair Prices
